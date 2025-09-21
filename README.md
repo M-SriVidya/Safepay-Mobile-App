@@ -1,10 +1,10 @@
-##SafePay – Secure UPI Transactions with Fraud Detection
+## SafePay – Secure UPI Transactions with Fraud Detection
 
 SafePay is a mobile application designed to provide a secure and reliable UPI transaction experience by integrating advanced fraud detection and robust network security protocols.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ecc54021-c781-45aa-aea9-e1ce463220bd" />
 
-##Key Highlights
+## Key Highlights
 Fraud Detection with Cohere API
 SafePay leverages user-generated fraud reports and summarizes them using the Cohere API. Before initiating a transaction, users receive warnings about potentially suspicious or fraudulent recipients, thereby enhancing trust and safety in digital payments.
 
