@@ -1,14 +1,28 @@
-# SafePay- Android app for secure UPI transactions with security features like fraud detection and RDT 3.0
+SafePay – Secure UPI Transactions with Fraud Detection
 
-## Youtube Demo: https://youtu.be/Wyjwe6UVW2I?si=MJL4yTsUWtg1FQ0s
-This is a project made by team HackSquad at Hack4Soc 2.0 Hackathon conducted by IEEE Computer Society RVCE and Hack2Skill at RV College of Engineering, Bangalore.
-![Safepay](SafePay.jpg)
+SafePay is a mobile application designed to provide a secure and reliable UPI transaction experience by integrating advanced fraud detection and robust network security protocols.
 
-- A mobile application to enable secure UPI transactions by integrating fraud detection based on user reports.
-- A summary of reports is generated using Cohere API to warn users about suspicious activity.
-- Implemented Reliable Data Transfer (RDT) 3.0, a computer networks security protocol which ensures connection between the servers of recipient’s and sender’s bank account before the initiation of money transfer.
-- Tech Stack: React-Native, Flask, Firebase, Cohere API
+Key Highlights
 
-### SafePay secures your transactions by the concept of reliable data transfer where connection is established between bank accounts prior transactions, so you don't need to worry about losing the money in between while making transactions(Tackles the payment issue where your money gets debited and the recipient doesn't receive it and bank takes 3-5 working days to refund)
+Fraud Detection with Cohere API
+SafePay leverages user-generated fraud reports and summarizes them using the Cohere API. Before initiating a transaction, users receive warnings about potentially suspicious or fraudulent recipients, thereby enhancing trust and safety in digital payments.
 
-### SafePay also ensures safety: While buying products online, people often lack trust and have a fear that the person is fraud. SafePay resolves this by warning our users prior transaction if the recipient is fraud by analysing the reports filed against the fraud. Thus, people can feel safe to make transactions with online businesses.
+Reliable Data Transfer (RDT) 3.0 Protocol
+To prevent common issues such as money being debited without reaching the recipient, SafePay implements the Reliable Data Transfer (RDT) 3.0 protocol. This ensures a secure end-to-end connection between the sender’s and recipient’s bank servers prior to initiating any transfer, eliminating transaction failures and delays in refunds.
+
+Secure Online Purchases
+Online shopping often comes with the fear of fraud. SafePay tackles this by providing real-time warnings if the recipient has been flagged in previous fraud reports, enabling users to transact with confidence.
+
+Tech Stack
+
+Frontend: React Native
+
+Backend: Flask
+
+Database: Firebase
+
+AI Integration: Cohere API
+
+Why SafePay?
+
+SafePay not only secures money transfers through protocol-level reliability, but also builds user trust by actively warning about suspicious entities. With SafePay, users can transact without worrying about failed payments, delayed refunds, or fraudulent merchants.
